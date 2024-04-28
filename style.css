@@ -55,6 +55,7 @@ nav li {
   gap: 20px;
 }
 .banner-title {
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 70px;
   margin-right: 10px;
@@ -93,10 +94,18 @@ main {
   margin-bottom: 40px;
 }
 .section-title {
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 24px;
   margin: 10px;
   text-align: center;
+  margin-bottom: 20px;
+}
+.section-title..{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 35px;
+  margin: 10px;
   margin-bottom: 20px;
 }
 .section-p {
@@ -128,12 +137,12 @@ main {
   margin-top: 80px;
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 40px;
 }
 .skill {
-  width: 410px;
-  height: 250px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.234); /* Modified box shadow */
+  width: 600px;
+  height:200px;
+  box-shadow: 0px 8px 15px gray;
   border-radius: 5px;
   border: solid #c1c1c10d;
   padding: 15px;
@@ -149,13 +158,42 @@ main {
   color: #474747;
 }
 .my-resume{
-  
+  margin-bottom: 80px;
 }
-.summary-title{
-    font-weight: bold;
-    font-size: 24px;
-    margin: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 200px;
+.summary-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.rusume-stuff {
+  display: flex;
+}
+.Education,
+.Experience {
+  width: 480px;
+  margin-left: 200px;
+}
+.education-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+.education-item-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.education-item-description {
+  margin-bottom: 40px;
+}
+.btn-center{
+  margin-top: 50px;
+  text-align: center; 
 }
