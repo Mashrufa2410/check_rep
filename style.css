@@ -98,16 +98,10 @@ main {
   font-weight: bold;
   font-size: 24px;
   margin: 10px;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 20px;
 }
-.section-title..{
-  font-family: "Open Sans", sans-serif;
-  font-weight: 1000;
-  font-size: 35px;
-  margin: 10px;
-  margin-bottom: 20px;
-}
+
 .section-p {
   color: #757575;
 }
@@ -131,6 +125,7 @@ main {
   margin-left: 180px;
   align-items: center;
   margin-bottom: 100px;
+  text-align: center;
 }
 .skills-div {
   padding: 20px;
@@ -194,6 +189,77 @@ main {
   margin-bottom: 40px;
 }
 .btn-center{
-  margin-top: 50px;
-  text-align: center; 
+  margin-top: 45px;
+  text-align: center;
+}/* Footer Styles */
+.footer {
+  background-color: #e0f2ff; /* Light blue background */
+  padding: 80px 200px;
+  text-align: center;
 }
+
+/* Other styles remain unchanged */
+.footer-stuff {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-item {
+  flex: 1;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section-p {
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.my-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Placeholder Styling */
+::placeholder {
+  color: #999;
+}
+
+/* Button Styles */
+.btn-submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+

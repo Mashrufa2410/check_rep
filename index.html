@@ -153,16 +153,32 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="footer-stuff">
-            <div>
-                <h3 class="section-title..">Lets Connect</h3>
-                <p class="section-p">Please fill out the form on this section to contact with me or call between <br>9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div class="footer-item">
+                <h3 class="section-title">Let's Connect</h3>
+                <p class="section-p">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
                 <img src="images/icons/icons.png" alt="">
             </div>
-            <div></div>
+            <div class="footer-item">
+                <h3 class="section-title">Let’s Message me</h3>
+                <form action="/submit-form" method="POST" class="my-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </div>
         </div>
     </footer>
+    
+    
 </body>
 
 </html>
